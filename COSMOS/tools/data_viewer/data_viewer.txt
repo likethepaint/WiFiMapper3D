@@ -1,0 +1,21 @@
+# CPSS data viewer 12/24/2017
+# Shows data dumps for each of the packets defined in upboard_tlm.txt
+
+COMPONENT "GPS Data Status" wifimapper_dump_component.rb
+  PACKET WIFIMAPPER GPS_BRETT
+  
+COMPONENT "IMU status" wifimapper_dump_component.rb
+  PACKET WIFIMAPPER IMU_BRETT
+  
+COMPONENT "Barometer status" wifimapper_dump_component.rb
+  PACKET WIFIMAPPER BAROMETER_BRETT
+
+COMPONENT "SSID Info" wifimapper_dump_component.rb
+  PACKET WIFIMAPPER SSID_BRETT  
+  
+COMPONENT "Radio Info" wifimapper_dump_component.rb
+  PACKET WIFIMAPPER RADIO_BRETT  
+  
+
+  
+
